@@ -29,7 +29,7 @@ body {
   }
   
   input[type="text"] {
-    padding: 10px;
+    padding: 30px;
     width: 70%;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -37,7 +37,7 @@ body {
   }
   
   input[type="submit"] {
-    padding: 10px 15px;
+    padding: 30px 25px;
     background-color: #4caf50;
     color: #fff;
     border: none;
@@ -105,20 +105,36 @@ body {
     transform: scale(1.1);
   }
   
-  /* Additional styles for a better button appearance */
+
   #show-btn {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
   }
   
-  /* Optional: Add a subtle shadow to the button */
+
   #show-btn {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  
-  /* Optional: Add a border on hover for a distinct effect */
+
   #show-btn:hover {
     border: 2px solid #2980b9;
+  }
+  #inputText::placeholder {
+    color: #6e6e6e;
+    font-style: italic;
+    font-size: 20px; 
+  }
+  
+
+  #inputText::placeholder {
+    transition: color 0.3s ease, font-style 0.3s ease, font-size 0.3s ease;
+  }
+  
+
+  #inputText:focus::placeholder {
+    color: #ccc; 
+    font-style: normal; 
+    font-size: 15px; 
   }
   
