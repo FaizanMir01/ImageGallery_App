@@ -28,3 +28,5 @@ const accessKey = 'YOUR_UNSPLASH_API_KEY';
 \`\`\`
 
 3. Open the \`index.html\` file in a web browser to use the application.
+### live Demo
+<a href="https://faizanmir01.github.io/ImageGallery_App/">Live Demo </a>
